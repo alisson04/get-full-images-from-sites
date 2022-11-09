@@ -1,0 +1,6 @@
+{
+  "url": "https://www.uol.com.br/vivabem/noticias/redacao/2018/08/07/cereja-melhora-funcionamento-do-instestino.htm",
+  "folder": "vivabem",
+  "selector": "img.pinit-img",
+  "type": {"attr": "src"}
+}
