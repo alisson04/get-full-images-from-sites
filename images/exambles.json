@@ -1,0 +1,43 @@
+{
+  "sources": [
+    {
+      "name": "leakedzone",
+      "items": ["taylerhills", "amouranth", "hannahowo"],
+      "content-types": [
+        {
+          "type": "img",
+          "ref": "photo",
+          "selector": ".light-gallery-item",
+          "attr": "data-src"
+        }
+      ],
+      "link": "https://leakedzone.com/{item}/{content-type.type}"
+    },
+    {
+      "name": "fapello.com",
+      "items": ["ruiva-braba"],
+      "content-types": [
+        {
+          "type": "img",
+          "selector": ".w-full.h-full.absolute.object-cover.inset-0",
+          "attr": "data-src"
+        }
+      ],
+      "actions": [
+        {
+          "action": "replace",
+          "search-value": "_300px",
+          "new-value": ""
+        }
+      ],
+      "link": "https://fapello.com/{item}/"
+    }
+  ]
+}
+
+// const site = {
+//     url: 'https://fapello.com/ruiva-braba/',
+//     folder: 'ruiva-braba',
+//     selector: '',
+//     type: {attr: 'src', split: '_300px'}
+// };
