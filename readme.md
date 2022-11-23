@@ -1,4 +1,4 @@
-# Get Images from sites
+# Get images full from sites
 This project allows download images from sites using Puppeteer to crawl and CSS selectors to find elements.
 
 ## Features
